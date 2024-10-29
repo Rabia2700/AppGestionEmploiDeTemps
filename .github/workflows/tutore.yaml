@@ -19,7 +19,7 @@ jobs:
          distribution: 'adopt'
 
     - name: Construire le projet
-      run: ./mvnw clean install 
+      run: mvn clean install 
 
     - name: Executer les tests
       run: ./mvnw test  # Exécute les tests unitaires
