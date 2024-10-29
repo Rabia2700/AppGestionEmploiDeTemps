@@ -16,8 +16,8 @@ jobs:
       with:
         node-version: 18.x
 
-    - name: Installer les dependances Node.js
-      run: npm install
+    # - name: Installer les dependances Node.js
+      # run: npm install
 
     - name: Run build with code coverage
       uses: coactions/setup-xvfb@v1
